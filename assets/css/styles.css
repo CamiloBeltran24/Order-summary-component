@@ -1,6 +1,6 @@
 body {
   display: flex;
-  height: 100vh;
+  height: 100%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 40px 0px 20px;
+  margin: 40px 0px;
 }
 .card .cardContent .cardContainer--prices img {
   width: 50px;
@@ -118,7 +118,7 @@ html {
 }
 .card .cardContent .payment-button:hover {
   opacity: 0.8;
-  box-shadow: 7px 7px 10px #7280a7;
+  box-shadow: 7px 7px 15px #7280a7;
 }
 .card .cardContent .cancel-button {
   color: #7280a7;
@@ -129,6 +129,19 @@ html {
 }
 .card .cardContent .cancel-button:hover {
   color: #1f2f56;
+}
+
+.attribution {
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 0.5rem;
+  position: absolute;
+  bottom: 0px;
+}
+
+.attribution a {
+  color: #3e52a3;
 }
 
 /*# sourceMappingURL=styles.css.map */

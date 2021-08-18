@@ -2,7 +2,7 @@
 
 body {
   display: flex;
-  height: 100vh;
+  height: 100%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -61,7 +61,7 @@ html {
       display: flex;
       align-items: center;
       justify-content: space-evenly;
-      margin: 40px 0px 20px;
+      margin: 40px 0px;
       img {
         width: 50px;
         height: 50px;
@@ -117,7 +117,7 @@ html {
       font-size: $Font-size;
       &:hover {
         opacity: 0.8;
-        box-shadow: 7px 7px 10px $secundary;
+        box-shadow: 7px 7px 15px $secundary;
       }
     }
     .cancel-button {
@@ -131,4 +131,15 @@ html {
       }
     }
   }
+}
+.attribution {
+  display: block;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 0.5rem;
+  position: absolute;
+  bottom: 0px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
