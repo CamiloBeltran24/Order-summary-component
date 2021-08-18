@@ -1,0 +1,31 @@
+// ## Colors
+
+// ### Primary
+
+// - Pale blue: hsl(225, 100%, 94%)
+// - Bright blue: hsl(245, 75%, 52%)
+
+// ### Neutral
+
+// - Very pale blue: hsl(225, 100%, 98%)
+// - Desaturated blue: hsl(224, 23%, 55%)
+// - Dark blue: hsl(223, 47%, 23%)
+
+// ## Typography
+
+// ### Body Copy
+
+// - Font size (paragraph): 16px
+
+// ### Font
+
+// - Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+// - Weights: 500, 700, 900
+
+$Font-size: 16px;
+$Font: "Red Hat Display", sans-serif;
+$BackgroundBody: hsl(225, 100%, 94%);
+$BackgroundCard: hsl(225, 100%, 98%);
+$principal: hsl(245, 75%, 52%);
+$secundary: hsl(224, 23%, 55%);
+$tertiary: hsl(223, 47%, 23%);

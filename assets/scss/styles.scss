@@ -1,0 +1,134 @@
+@import "./_variables.scss";
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: $BackgroundBody;
+}
+html {
+  font-size: 62.5%;
+}
+.card {
+  width: 90%;
+  max-width: 375px;
+  background-color: $BackgroundCard;
+  border-radius: 30px;
+  font-family: $Font;
+
+  .heroImage {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    img {
+      width: 100%;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    }
+  }
+  .cardContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .cardContend--description {
+      text-align: center;
+      h1 {
+        color: $tertiary;
+        font-weight: 900;
+        margin-top: 28px;
+        font-size: 2.5rem;
+      }
+      p {
+        width: 85%;
+        max-width: 297px;
+        padding: 5px;
+        margin: 0px auto;
+        font-size: $Font;
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        // letter-spacing: 0.5px;
+        color: $secundary;
+        font-weight: 500;
+      }
+    }
+    .cardContainer--prices {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 40px 0px 20px;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+      .text {
+        font-size: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: left;
+        text-align: left;
+        p {
+          margin: 0;
+          color: $tertiary;
+          font-family: $Font;
+          font-weight: 900;
+        }
+        .price {
+          color: $secundary;
+          font-weight: 500;
+          margin: 8px 0px;
+        }
+      }
+      a {
+        font-size: $Font-size;
+        font-family: $Font;
+        color: $principal;
+        font-weight: 700;
+        &:hover {
+          text-decoration: none;
+          color: $secundary;
+        }
+      }
+    }
+    button {
+      width: 90%;
+      margin-top: 10px;
+      height: 50px;
+      border-radius: 1rem;
+      border: none;
+      outline: none;
+      margin-top: 1rem;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      &:active {
+        transform: scale(0.9);
+      }
+    }
+    .payment-button {
+      background-color: $principal;
+      color: $BackgroundCard;
+      font-weight: 700;
+      font-size: $Font-size;
+      &:hover {
+        opacity: 0.8;
+        box-shadow: 7px 7px 10px $secundary;
+      }
+    }
+    .cancel-button {
+      color: $secundary;
+      margin-bottom: 2.5rem;
+      font-family: $Font;
+      font-size: $Font-size;
+      font-weight: 700;
+      &:hover {
+        color: $tertiary;
+      }
+    }
+  }
+}

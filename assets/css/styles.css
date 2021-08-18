@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: #e0e8ff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.card {
+  width: 90%;
+  max-width: 375px;
+  background-color: #f5f7ff;
+  border-radius: 30px;
+  font-family: "Red Hat Display", sans-serif;
+}
+.card .heroImage {
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.card .heroImage img {
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.card .cardContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card .cardContent .cardContend--description {
+  text-align: center;
+}
+.card .cardContent .cardContend--description h1 {
+  color: #1f2f56;
+  font-weight: 900;
+  margin-top: 28px;
+  font-size: 2.5rem;
+}
+.card .cardContent .cardContend--description p {
+  width: 85%;
+  max-width: 297px;
+  padding: 5px;
+  margin: 0px auto;
+  font-size: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: #7280a7;
+  font-weight: 500;
+}
+.card .cardContent .cardContainer--prices {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 40px 0px 20px;
+}
+.card .cardContent .cardContainer--prices img {
+  width: 50px;
+  height: 50px;
+}
+.card .cardContent .cardContainer--prices .text {
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+.card .cardContent .cardContainer--prices .text p {
+  margin: 0;
+  color: #1f2f56;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+}
+.card .cardContent .cardContainer--prices .text .price {
+  color: #7280a7;
+  font-weight: 500;
+  margin: 8px 0px;
+}
+.card .cardContent .cardContainer--prices a {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  color: #3829e0;
+  font-weight: 700;
+}
+.card .cardContent .cardContainer--prices a:hover {
+  text-decoration: none;
+  color: #7280a7;
+}
+.card .cardContent button {
+  width: 90%;
+  margin-top: 10px;
+  height: 50px;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.card .cardContent button:active {
+  transform: scale(0.9);
+}
+.card .cardContent .payment-button {
+  background-color: #3829e0;
+  color: #f5f7ff;
+  font-weight: 700;
+  font-size: 16px;
+}
+.card .cardContent .payment-button:hover {
+  opacity: 0.8;
+  box-shadow: 7px 7px 10px #7280a7;
+}
+.card .cardContent .cancel-button {
+  color: #7280a7;
+  margin-bottom: 2.5rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.card .cardContent .cancel-button:hover {
+  color: #1f2f56;
+}
+
+/*# sourceMappingURL=styles.css.map */
