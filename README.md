@@ -8,8 +8,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/CamiloBeltran24/Order-summary-component](https://your-solution-url.com)
+- Live Site URL: [https://camilobeltran24.github.io/Order-summary-component/](https://your-live-site-url.com)
 
 ### Built with
 
@@ -24,7 +24,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
-- GitHub - []()
+- GitHub - [](https://github.com/CamiloBeltran24)
 
 ## The challenge
 
