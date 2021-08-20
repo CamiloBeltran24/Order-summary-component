@@ -24,7 +24,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
-- GitHub - [](https://github.com/CamiloBeltran24)
+- GitHub - [GitHub](https://github.com/CamiloBeltran24)
 
 ## The challenge
 
